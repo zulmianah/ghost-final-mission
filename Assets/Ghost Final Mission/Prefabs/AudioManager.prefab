@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5839785595970371403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5839785595970371405}
+  - component: {fileID: 5839785595970371404}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5839785595970371405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5839785595970371403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 864.65985, y: 417.92044, z: 159.83614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5839785595970371404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5839785595970371403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc145f5f0f49ff499e648ec385cb5ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Musics: []
+  Sounds:
+  - Name: btn_hilighted
+    Clip: {fileID: 8300000, guid: 221cbf1519ea12e44a2497f412e5f4ae, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: btn_pressed
+    Clip: {fileID: 8300000, guid: 7ae8dc64644f1de4b9068aca2b3b4e98, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: thocc1
+    Clip: {fileID: 8300000, guid: 01d877f466ee1de47b1cb8f9048fadc1, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: thocc2
+    Clip: {fileID: 8300000, guid: 604f7fbdce5fb824eb7de849988726a6, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: thocc3
+    Clip: {fileID: 8300000, guid: 44fa779ececc92e4c8fec0a370d0df2f, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: thocc4
+    Clip: {fileID: 8300000, guid: f9431454675211945b41642d597fa17d, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: gun_01
+    Clip: {fileID: 8300000, guid: adbd8fdc7ad2fca4d8296dc8c21247d7, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: gun_02
+    Clip: {fileID: 8300000, guid: 0d8bf231a38b0b140841733434762fed, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: gun_03
+    Clip: {fileID: 8300000, guid: 6cdd85e224c1d2f4190bffad3f9588fd, type: 3}
+    Mixer: {fileID: 8477897641546243060, guid: 0f88abc49063dae4da610454fa2a46c5, type: 2}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  fadeSpeed: 0.03
