@@ -4,26 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/1 Game Menu.unity
-    guid: 0826fb4bbd701a742afd299f78417b38
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/2 Prologue.unity
-    guid: 9a92eaa2821024d41be8b20d26136248
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/3 LVL 1.unity
-    guid: 11f463e8a444d3e40b713749234d9a59
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/4 LVL 2.unity
-    guid: 91dd77ead37beaf45822890fa556caba
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/5 Epilogue.unity
-    guid: 1cabf40ddf3f84d4588ec2adacd14161
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/LVL.unity
-    guid: d3932e699db164648aa1298bcc0ef396
-  - enabled: 1
-    path: Assets/Ghost Final Mission/Scenes/Instructions.unity
-    guid: 6aa49c1a1982ae44282c02677145ae24
+  m_Scenes: []
   m_configObjects: {}
